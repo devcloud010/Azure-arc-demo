@@ -1,8 +1,7 @@
 apiVersion: crd.projectcalico.org/v1
-kind: NetworkSet
+kind: GlobalNetworkSet
 metadata:
   name: dev-allow-ip
-  namespace: dev
   labels:
     role: allow
 spec:
